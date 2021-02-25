@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="title">NBA篮彩混合基金</view>
+    <view class="code">
+        <text class="code-num">201227</text>
+        <text class="code-ratio">高风险</text>
+        <navigator class="goto-detail" url="/pages/detail/detail">详情</navigator>
+    </view>
+    <view class="sum">
+        <text class="sum-text">金额(元)</text>
+        <text class="sum-money">{{sumMoney}}</text>
+    </view>
+    <view class="overall"> 
+        <text class="overall-today">今日收益(元)\n<text class="overall-today-num {{overallTodayNumColor?'earn':''}}">{{overallTodayNum}}</text></text>
+        <text class="overall-remain">持有收益(元)\n<text class="overall-remain-num {{overallRemainColor?'earn':''}}">{{overallRemain}}</text></text>
+        <text class="overall-profit">持有收益率\n<text class="overall-profit-num {{overallProfitColor?'earn':''}}">{{overallProfit}}</text></text>
+        <text class="overall-capital">投入本金(元)\n<text class="overall-capital-num">{{overallCapitalNum}}</text></text>
+    </view>
+    <view class="total-income">累计收益：<text class="total-income-num {{totalIncomeColor?'earn':''}}">{{totalIncome}}</text></view>
+    <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler" bindtouchstart="touchstart" bindtouchmove="touchmove" bindtouchend="touchend"></canvas>
+</view>

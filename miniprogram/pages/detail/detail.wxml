@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="title">累计收益(元)</view>
+    <view class="sum {{totalIncomeColor?'sum-earn':''}}">{{totalIncome}}</view>
+    <view class="list">
+        <view class="show-tip" wx:for="{{myData}}" wx:for-index="index" wx:for-item="item" wx:key="key">
+            <text class="show-date {{item.isEarn?'earn':''}}">{{item.date}}</text><text class="show-money {{item.isEarn?'earn':''}}" style="padding-right:{{item.right}}rpx">{{item.value}}</text>
+        </view>
+    </view>
+</view>

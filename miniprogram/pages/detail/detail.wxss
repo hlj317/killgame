@@ -1,0 +1,65 @@
+/**home.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.title{
+    color:#8d8d8d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    font-size:24rpx;
+    margin-top:15rpx;
+}
+.sum{
+    color:#0e9586;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    font-size:60rpx;
+    font-weight: bold;
+    padding:5rpx 0 20rpx 0;
+    border-bottom:10px solid #eeeeee;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-direction: column;
+    width:100%;  
+    margin-top:15rpx;
+}
+.show-tip{
+    background:#f2f1f6;
+    font-size:24rpx;
+    margin:10rpx 0;
+    padding:20rpx;
+}
+.show-skin{
+
+}
+.show-date{
+    background:#1d9a00;
+    color:#ffffff;
+    padding:20rpx;
+}
+.show-money{
+    background:#1d9a00;
+    padding-left:70rpx;
+    color:#ffffff;
+    padding:20rpx;
+}
+.earn{
+    background:#f5333c;
+}
+.sum-earn{
+    color:#e5521e;
+}
+
