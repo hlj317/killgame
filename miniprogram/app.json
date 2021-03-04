@@ -1,13 +1,7 @@
 {
   "pages": [
-    "pages/home/home",
-    "pages/detail/detail",
-    "pages/area/area",
-    "pages/scrollline/scrollline",
-    "pages/radar/radar",
-    "pages/column/column",
-    "pages/ring/ring",
     "pages/index/index",
+    "pages/detail/detail",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",

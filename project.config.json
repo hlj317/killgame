@@ -38,10 +38,11 @@
     "useApiHostProcess": true
   },
   "appid": "wx7d0858c64f8d5300",
-  "projectname": "my-chart",
+  "projectname": "killgame",
   "libVersion": "2.8.1",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
     "search": {
       "list": []
