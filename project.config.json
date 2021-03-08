@@ -39,7 +39,7 @@
   },
   "appid": "wx7d0858c64f8d5300",
   "projectname": "killgame",
-  "libVersion": "2.8.1",
+  "libVersion": "2.15.0",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",

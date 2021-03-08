@@ -10,7 +10,7 @@ const getOpenidApi = function() {
       data: {
       },
       success(res) {
-        resolve(res.result.openid);
+        resolve(res.result.userInfo.openId);
       },
       fail(error) {
         reject(false)
