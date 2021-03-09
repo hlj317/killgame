@@ -23,4 +23,4 @@ dump.rdb
 yarn*
 v8-compile-cache-0/
 
-#cloudfunctions/getOpenOid/node_modules/
+cloudfunctions/getOpenOid/node_modules/

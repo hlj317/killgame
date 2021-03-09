@@ -58,6 +58,8 @@ Page({
         wx.navigateTo({
           url: '../userConsole/userConsole',
         })
+        wx.setStorageSync('openid', oid);
+
     }else{
         console.error('[云函数] [login] 调用失败');
         wx.navigateTo({

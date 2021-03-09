@@ -33,6 +33,7 @@ page {
   align-content: center;
   justify-content: space-between;
   box-sizing: border-box;
+  padding:20rpx 0;
 }
 
 .list-item:first-child {

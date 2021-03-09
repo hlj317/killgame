@@ -8,3 +8,20 @@
   flex-direction: row;
   align-content: space-between;
 }
+
+.request-text{
+    background:#cccccc;
+    padding:5rpx 15rpx;
+}
+
+.input-counter{
+    border:1rpx solid #cccccc;
+    color:#999999;
+    padding:2rpx 0 0 10rpx;
+    width:120rpx;
+}
+
+.input-update{
+    border:1rpx solid #cccccc;
+    padding:0;
+}

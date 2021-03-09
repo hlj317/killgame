@@ -4,10 +4,10 @@
   <!-- 导航 -->
   <view class="list">
     <view class="list-item">
-      <text class="request-text">数据库指引</text>
+      <text>数据库指引</text>
     </view>
     <view class="list-item">
-      <text class="request-text" wx:for="{{7}}" style="color: {{step === index + 1 ? 'red': 'black'}}">{{index + 1}}</text>
+      <text class="request-text" wx:for="{{7}}" wx:key="index" style="color: {{step === index + 1 ? 'red': 'black'}}"  data-index="{{index}}" bindtap="gotoPage">{{index + 1}}</text>
     </view>
     <view class="list-item" wx:if="{{openid}}">
       <text class="request-text">openid：{{openid}}</text>
@@ -94,9 +94,8 @@
     <image class="code-image" src="../../images/code-db-inc-dec.png" mode="aspectFit"></image>
     <text class="p">3. 点击下方按钮更新计数器</text>
     <div class="counter">
-      <button class="minus" size="mini" type="default" bindtap="onCounterDec">-</button>
-      <text class="p">{{count}}</text>
-      <button class="plus" size="mini" type="default" bindtap="onCounterInc">+</button>
+      <input type="number" class="input-counter" bindblur="setValue" />
+      <button size="mini" type="default" class="input-update" bindtap="onCounterUpdate">确定</button>
     </div>
 
     <div class="nav">
